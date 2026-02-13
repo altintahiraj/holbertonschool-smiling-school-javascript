@@ -1,0 +1,11 @@
+.txt-link:hover {
+    color: #C271FF !important;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    text-decoration-color: #fff;
+}
+
+.txt-size {
+    font-size: 12px;
+    letter-spacing: 1.5px;
+}

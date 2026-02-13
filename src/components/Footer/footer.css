@@ -1,0 +1,14 @@
+.footer {
+    background-color: rgb(3, 22, 43);
+    color: #fff;
+    width: 100%;
+    height: auto;
+}
+
+.footer-icon {
+    color: #fff;
+    margin-left: 20px;
+}
+.text-footer{
+    color: rgb(35, 52, 70);
+}

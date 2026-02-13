@@ -1,0 +1,22 @@
+.faq h1 {
+    font-size: 60px;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.faq-item {
+    margin: 80px 120px;
+}
+
+.faq-item h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.faq-item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #07162980;
+}

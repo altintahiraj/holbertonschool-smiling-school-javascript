@@ -1,0 +1,57 @@
+.bg-image {
+    position: relative;
+}
+
+.bg-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: url("../../images/pic_1.jpg");
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.get-schooled {
+    font-size: clamp(3.2rem, 10vw, 8rem);
+    font-weight: 700;
+    padding-top: 80px;
+}
+
+.btn-purple {
+    background-color: #C271FF !important;
+    border: none !important;
+    color: #ffffff !important;
+    font-weight: bold !important;
+    border-radius: 50px !important;
+    box-shadow:10px 10px 10px rgba(0, 0, 0, 0.45) !important;
+    
+
+}
+
+.btn-purple:hover {
+    background-color: #b260e6 !important;
+}
+
+.txt-learn {
+    color: #C271FF;
+}
+
+.card-img {
+    border-radius: 50px !important;
+}
+
+.student-img {
+    margin: 0 auto !important;
+    display: block !important;
+    width: 120px !important;
+    height: 120px !important;
+    border-radius: 50% !important;
+}
+
+@media (max-width: 576px) {
+    .get-schooled {
+        padding-top: 40px;
+    }
+}

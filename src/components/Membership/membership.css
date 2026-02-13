@@ -1,0 +1,23 @@
+.membership {
+    background-color: rgba(7, 22, 41, 1);
+    color: white;
+}
+.text-color{
+    font-size: 32px;
+}
+.text-color span{
+    color: #C271FF;
+}
+.text-h2{
+    font-size: 18px;
+}
+.text-p{
+    font-size: 14px;
+    margin-top: 15px;
+    line-height: 1.7;
+}
+.bt-edit{
+    background-color: #C271FF !important;
+    border-radius: 22px !important;
+    border: none !important;
+}

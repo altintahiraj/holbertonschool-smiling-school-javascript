@@ -1,0 +1,29 @@
+.section-spinner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+/* Reference-like ring: light grey ring with a purple arc */
+.ss-spinner {
+  box-sizing: border-box;
+  border-radius: 50%;
+  border: 8px solid rgba(17, 24, 39, 0.12); /* grey */
+  border-top-color: #c271ff; /* purple arc */
+  border-right-color: #c271ff;
+  animation: ss-spin 0.9s linear infinite;
+}
+
+/* On purple background: white ring with white arc */
+.ss-spinner.ss-on-purple {
+  border: 8px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #ffffff;
+  border-right-color: #ffffff;
+}
+
+@keyframes ss-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

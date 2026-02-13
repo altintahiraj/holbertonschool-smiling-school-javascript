@@ -1,0 +1,35 @@
+.sort-by {
+    background-color: #c471f5;
+}
+
+.filter-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: rgba(255, 255, 255, 0.95);
+    margin-bottom: 0.4rem;
+}
+
+.filter-control {
+    background-color: rgb(220, 145, 255) !important;
+    color: white !important;
+    border-color: rgb(220, 145, 255) !important;
+}
+
+.filter-control option {
+    color: #111;
+}
+
+.filter-control::placeholder {
+    color: white;
+}
+
+.filter-control .bi {
+    color: white;
+}
+
+.filter-control:focus {
+    outline: none;
+    box-shadow: none;
+    background-color: rgb(220, 145, 255);
+}
